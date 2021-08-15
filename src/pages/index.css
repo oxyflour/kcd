@@ -1,0 +1,28 @@
+body {
+	background-color: #eee;
+	overflow-x: hidden;
+}
+
+.cluster .ant-tabs-nav {
+	padding-left: 24px;
+	background-color: white;
+}
+
+.cluster .ant-tabs-content-holder {
+	margin-left: 24px;
+	margin-right: 24px;
+}
+
+.cluster .node {
+	width: 160px;
+	height: 195px;
+	margin: 8px;
+	display: inline-block;
+}
+
+.cluster .node .progress-bar {
+	stroke-linecap: round;
+	cursor: pointer;
+	transform-origin: 50%;
+	transform: rotate(90deg);
+}
